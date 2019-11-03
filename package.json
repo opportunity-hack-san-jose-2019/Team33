@@ -1,0 +1,33 @@
+{
+  "name": "team33",
+  "version": "1.0.0",
+  "description": "Paypal project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opportunity-hack-san-jose-2019/Team33.git"
+  },
+  "author": "Umair Khalid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opportunity-hack-san-jose-2019/Team33/issues"
+  },
+  "homepage": "https://github.com/opportunity-hack-san-jose-2019/Team33#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.1",
+    "csvjson": "^5.1.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "jsonstream": "^1.0.3",
+    "python-shell": "^1.0.8",
+    "uuid": "^3.3.3"
+  }
+}
